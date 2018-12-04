@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="../js/index.js"></script>
+  </head>
+
+  <body>
+    Yow mister <span id="unm"><%= foo %></span> !!
+    <a href="/logout">Logout</a>
+    <br>
+    <br>
+    <div id="container"></div>
+    <span id="result"></span>
+    <br>
+    <br>
+    <span>Users connected :</span>
+    <br>
+    <div id="usersco"></div>
+  </body>
+</html>

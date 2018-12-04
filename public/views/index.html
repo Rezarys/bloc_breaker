@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Title</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    .wrongpass {
+      font-size: 12px;
+      color: red;
+    }
+    .success {
+      font-size: 12px;
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="/logister" method="POST">
+    <span class="success"><%= bar %></span><br>
+    Username:<br>
+    <input type="text" name="unm">
+    <br>
+    Password:<br>
+    <input type="password" name="pwd">
+    <br><span class="wrongpass"><%= foo %></span><br>
+    <input type="submit" value="Logister">
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+td {
+  border: 1px solid black;
+  width: 20%;
+}
+
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+table {
+  border: 1px solid rgb(0, 255, 0);
+  width: 20%;
+}
