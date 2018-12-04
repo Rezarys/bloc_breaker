@@ -12,6 +12,7 @@ var session = require('express-session')({
   resave: true,
   saveUninitialized: true
 })
+var PORT = process.env.PORT || 3000
 
 var globObj
 var usersco = []
@@ -157,6 +158,6 @@ function isComplete (obj) {
   }
 }
 
-http.listen(3000, function () {
-  console.log('Server listenning on port 3000')
+http.listen(PORT, function () {
+  console.log('Server listenning on port ' + PORT)
 })

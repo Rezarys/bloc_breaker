@@ -6,5 +6,5 @@ applications:
   buildpack: sdk-for-nodejs
   command: npm start
   memory: 256M
-  domain: mybluemix.net
+  domain: eu-gb.mybluemix.net
   host: blocbreaker
